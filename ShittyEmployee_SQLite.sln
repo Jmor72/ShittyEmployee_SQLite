@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A8F0FFA-11F2-433D-AC4B-7591ED9BAA18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94B1BB52-2591-48DB-8941-EEFF38E293AC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ShittyEmployee_SQLite", "src\ShittyEmployee_SQLite\ShittyEmployee_SQLite.xproj", "{68CD7238-666E-45F5-B865-9FD1C32076A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68CD7238-666E-45F5-B865-9FD1C32076A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CD7238-666E-45F5-B865-9FD1C32076A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CD7238-666E-45F5-B865-9FD1C32076A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CD7238-666E-45F5-B865-9FD1C32076A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68CD7238-666E-45F5-B865-9FD1C32076A1} = {8A8F0FFA-11F2-433D-AC4B-7591ED9BAA18}
+	EndGlobalSection
+EndGlobal
